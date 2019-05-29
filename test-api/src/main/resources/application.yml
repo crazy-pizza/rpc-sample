@@ -1,0 +1,8 @@
+spring:
+  profiles.active: api
+
+server:
+  port: 6666
+
+rpc-demo:
+   zkAddr: 192.168.216.128:2181,192.168.216.128:2182,192.168.216.128:2183

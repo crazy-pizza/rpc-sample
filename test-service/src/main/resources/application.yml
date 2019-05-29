@@ -1,0 +1,10 @@
+spring:
+  profiles.active: service
+
+server:
+  port: 26567
+
+rpc-demo:
+   serverHost: 127.0.0.1
+   serverPort: 7612
+   zkAddr: 192.168.216.128:2181,192.168.216.128:2182,192.168.216.128:2183
